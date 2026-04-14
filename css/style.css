@@ -20,3 +20,82 @@ html {
         margin-left: auto;
         margin-right: auto;
     }
+
+/* ==========================================================================
+   Components
+   ========================================================================== */
+
+   h1{
+    font-family: "Jost", sans-serif;
+    font-size: 3.125rem;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+   }
+
+   h2{
+    font-family: "Jost", sans-serif;
+    font-size: 2.25rem;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+   }
+
+   h3{
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.375rem;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+   }
+
+
+/* ==========================================================================
+   Éléments
+   ========================================================================== */
+
+   /* Header */
+
+   header .wrapper{
+    display: flex;
+    justify-content: space-between;
+    
+   }
+
+   .computer{
+    font-size: 40px;
+   }
+
+   .logo{
+    display: flex;
+    align-items: center;
+    font-size: 2.625rem;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    gap: 20px;
+   }
+
+   ul{
+    display: flex;
+    gap: 30px;
+   }
+
+   li{
+    font-size: 1.125rem;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  list-style-type: none;
+   }
+
+   li a{
+    text-decoration: none;
+   }
+
+   
+
+
+   /* Hero */
