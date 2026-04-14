@@ -25,12 +25,17 @@ html {
    Components
    ========================================================================== */
 
+   body{
+    color: #0a0908;
+   }
+
    h1{
     font-family: "Jost", sans-serif;
     font-size: 3.125rem;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    line-height: 110%;
    }
 
    h2{
@@ -39,6 +44,7 @@ html {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    line-height: 110%;
    }
 
    h3{
@@ -47,6 +53,8 @@ html {
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+  text-transform: uppercase;
+  line-height: 110%;
    }
 
 
@@ -89,13 +97,95 @@ html {
   font-weight: 700;
   font-style: normal;
   list-style-type: none;
+  
    }
 
-   li a{
+   a{
     text-decoration: none;
+    color: #0a0908;
    }
 
    
 
 
    /* Hero */
+
+   .hero{
+    background-image: url(../images/hero.jpg);
+   }
+
+   .contenu{
+    color: #fff;
+    background-color: rgba(226, 82, 84, 0.9);
+   }
+
+   .contenu p{
+    font-size: 1.125rem;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+   }
+
+
+   /* Services */
+   
+   .services{
+    background-color: #d6d6d6;
+   }
+
+   .services .wrapper {
+    gap: 40px;
+   }
+
+   /* Conseils */
+   .conseils{
+    background-color: rgba(139, 45, 47, 1);
+    background-image: url(../images/tuile.png);
+    background-repeat: repeat;
+   }
+
+   .conseils h2{
+    color: #f2f4f3;
+   }
+
+   .cartes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+   }
+
+   .cartes article{
+    background-color: #fff;
+    width: 383px;
+    height: 160px;
+   }
+
+    .cartes article:hover{
+    background-color: #e25254;
+    color: #F2F4F3;
+   }
+
+   /* Footer */
+
+   footer{
+    background-color: #e25254;
+    color: #f2f4f3;
+   }
+
+   footer .wrapper{
+    display: flex;
+    justify-content: space-between;
+   }
+
+   footer p{
+    font-size: 1.125rem;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+   }
