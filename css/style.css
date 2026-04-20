@@ -27,6 +27,8 @@ html {
 
    body{
     color: #0a0908;
+    margin: 0;
+    padding: 0;
    }
 
    p{
@@ -177,7 +179,15 @@ html {
       line-height: 160%;
    }
 
-   
+   .titre{
+      display: flex;
+      align-items: center;
+      gap: 15px;
+   }
+
+   .titre .material-symbols-outlined{
+      font-size: 1.875rem;
+   }
 
    .cartes{
     display: grid;
@@ -194,8 +204,16 @@ html {
       gap: 30px;
    }
 
-    .cartes article:hover{
+    .cartes article:hover {
     background-color: #e25254;
+    color: #F2F4F3;
+   }
+
+   .cartes article .titre {
+    color: #e25254;
+   }
+
+     .cartes article:hover .titre {
     color: #F2F4F3;
    }
 
