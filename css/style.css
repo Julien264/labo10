@@ -75,6 +75,15 @@ html {
       padding: 20px;
    }
 
+   button{
+    font-family: "Jost", sans-serif;
+    font-size: 1.125rem;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 100%;
+   }
+
 
 /* ==========================================================================
    Éléments
@@ -152,6 +161,15 @@ html {
       font-weight: 400;
       font-style: normal;
       line-height: 160%;
+   }
+
+   .contenu button{
+      width: 173px;
+      height: 48px;
+      color: #fff;
+      background-color: #C0392B;
+      border: none;
+      border-radius: 10%;
    }
 
 
