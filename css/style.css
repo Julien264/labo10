@@ -83,6 +83,7 @@ html {
    header .wrapper{
     display: flex;
     justify-content: space-between;
+    padding: 14px 0;
    }
 
    .computer{
@@ -123,22 +124,32 @@ html {
    /* Hero */
 
    .hero{
-    background-image: url(../images/hero.jpg);
+      display: flex;
+      height: 650px;
+      background-image: url(../images/hero.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      align-items: center;
    }
 
    .contenu{
-    color: #fff;
-    background-color: rgba(226, 82, 84, 0.9);
+      display: flex;
+      flex-direction: column;
+      color: #fff;
+      background-color: rgba(226, 82, 84, 0.9);
+      width: 587px;
+      height: 498px;
+      padding: 40px;
+      gap: 20px;
    }
 
    .contenu p{
-    font-size: 1.125rem;
-    font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
+      font-size: 1.125rem;
+      font-family: "Roboto", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      line-height: 160%;
    }
 
 
@@ -149,9 +160,24 @@ html {
    }
 
    .services .wrapper {
-    gap: 40px;
-    padding: 80px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      padding: 80px 0;
    }
+
+   .intro{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      max-width: 588px;
+   }
+
+   .intro p{
+      line-height: 160%;
+   }
+
+   
 
    .cartes{
     display: grid;
@@ -182,6 +208,13 @@ html {
 
    .conseils .wrapper{
       padding: 80px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+   }
+
+   .conseil{
+      color: #F2F4F3;
    }
 
    .conseils h2{
