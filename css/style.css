@@ -91,6 +91,11 @@ html {
 
    /* Header */
 
+   header{
+      background-color: #fff;
+   }
+   
+
    header .wrapper{
     display: flex;
     justify-content: space-between;
@@ -169,7 +174,8 @@ html {
       color: #fff;
       background-color: #C0392B;
       border: none;
-      border-radius: 10%;
+      padding: 15px 20px;
+      border-radius: 20px;
    }
 
 
@@ -267,6 +273,16 @@ html {
       height: 288px;
       background-color: #fff;
    }
+
+   .cta{
+      width: 157px;
+      height: 48px;
+      border-radius: 20px;
+      background-color: #e25254;
+      color: #F2F4F3;
+      border: none;
+
+   }
       
 
    /* Footer */
@@ -290,4 +306,21 @@ html {
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
+   }
+
+   /* Modale */
+
+   .modale{
+
+   }
+
+   .modale p{
+      font-family: "Jost", sans-serif;
+      font-size: 25rem;
+      font-weight: 900;
+      color: #e25254;
+   }
+
+   .modale .visible{
+      display: block;
    }
