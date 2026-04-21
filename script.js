@@ -1,5 +1,5 @@
 const cta = document.querySelectorAll('.cta');
-const modal = document.querySelector('.modal');
+const modal = document.querySelector('.modale');
 
 for(let i = 0; i < cta.length; i++){
 

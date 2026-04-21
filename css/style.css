@@ -272,6 +272,8 @@ html {
       width: 587px;
       height: 288px;
       background-color: #fff;
+      display: grid;
+      gap: 30px;
    }
 
    .cta{
@@ -311,7 +313,7 @@ html {
    /* Modale */
 
    .modale{
-
+      display: none;
    }
 
    .modale p{
